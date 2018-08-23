@@ -1,0 +1,16 @@
+<form action="/<%= @toy[:id] %>" method="toy">
+  <div>
+    <label>Title</label>
+    <input type="text" name="title" placeholder="Enter a title" value="<%= @toy[:title] %>">
+  </div>
+  <div>
+    <label>Body</label>
+    <textarea name="toy_body" placeholder="The body of the text"><%= @toy[:toy_body] %></textarea>
+  </div>
+  <div>
+    <input type="submit" value="save toy">
+  </div>
+  <% if(@toy[:id] !='') %>
+  <input type="hidden" name="_method" value="PUT">
+  <% end %>
+</form>

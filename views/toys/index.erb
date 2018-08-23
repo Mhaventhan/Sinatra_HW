@@ -1,0 +1,7 @@
+<h1>Welcom to Toys R Yours'</h1>
+<% @toy.each do | toy | %>
+<div>
+  <h3> <a href="<%= toy[:id] %>"><%= toy[:title] %></a> </h3>
+  <p><%= toy[:toy_body] %></p>
+</div>
+<% end %>
