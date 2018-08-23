@@ -1,6 +1,6 @@
 <h1><%= @toy[:title] %></h1>
 <p><%= @toy[:toy_body] %></p>
-<form action="/<%= @toy[:id]%>" method="toy">
+<form action="/<%= @toy[:id]%>" method="POST">
   <input type="hidden" name="_method" value="DELETE">
   <input type="submit"  value="Delete">
 </form>

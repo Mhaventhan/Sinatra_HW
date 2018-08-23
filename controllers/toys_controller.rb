@@ -9,22 +9,22 @@ class ToysController < Sinatra::Base
   end
   $toys = [{
     id:0,
-    title:'toy 1',
+    title:'Toy 1: Despicable Me',
     toy_body: 'Despicable Me 3'
     },
     {
     id:1,
-    title:'toy 2',
-    toy_body: 'Transformers'
+    title:'Toy 2: Transformers',
+    toy_body: 'Bumblebee'
     },
     {
     id:2,
-    title:'toy 3',
-    toy_body: 'Pokémon'
+    title:'Toy 3:Pokémon',
+    toy_body: 'gotta get them all'
   },
     {
     id: 3,
-    title:'toy 4',
+    title:'Toy 4: Superman',
     toy_body: 'Justice League'
     }]
 
