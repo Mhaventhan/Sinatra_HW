@@ -10,21 +10,25 @@ class ToysController < Sinatra::Base
   $toys = [{
     id:0,
     title:'Toy 1: Despicable Me',
+    img_url:'http://media.4rgos.it/i/Argos/6819116_R_Z001A?$Web$&$DefaultPDP570$',
     toy_body: 'Despicable Me 3'
     },
     {
     id:1,
     title:'Toy 2: Transformers',
+    img_url:'http://media.4rgos.it/s/Argos/3237540_R_SET?$Web$&$Main350$&w=238&h=238&qlt=70&$W_TMB_238_BADGE$&topright=clearance',
     toy_body: 'Bumblebee'
     },
     {
     id:2,
     title:'Toy 3:Pokémon',
+    img_url:'http://media.4rgos.it/s/Argos/6348326_R_SET?$Web$&$Main350$&w=238&h=238&qlt=70&$W_TMB_238_BADGE$&topright=clearance',
     toy_body: 'gotta get them all'
   },
     {
     id: 3,
     title:'Toy 4: Superman',
+    img_url: 'http://media.4rgos.it/s/Argos/7119248_R_SET?$Web$&$Main350$&w=238&h=238&qlt=70&$W_TMB_238_BADGE$&topright=clearance',
     toy_body: 'Justice League'
     }]
 
